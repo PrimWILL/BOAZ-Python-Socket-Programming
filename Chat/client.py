@@ -1,4 +1,3 @@
-# Python program to implement client side of chat room.
 import socket
 import select
 import sys
@@ -25,4 +24,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 sys.stdout.write("<You>")
                 sys.stdout.write(message)
                 sys.stdout.flush()
-
